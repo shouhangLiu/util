@@ -1,0 +1,19 @@
+server:
+  port: 9051
+
+mqtt:
+  host: tcp://39.101.75.10:1883
+  username: admin
+  password: P@ssw0rd
+  clientId: mqttx_1b8bab75
+  topic: test/#
+  retained: false
+  qos: 0
+  keepAlive: 60
+
+
+
+
+
+logging:
+  config: classpath:logback.xml
